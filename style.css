@@ -1165,7 +1165,7 @@ li img {
     padding: 30px 0;
     font-size: 40px !important;
     font-weight: 100;
-    text-shadow: 4px 4px 5px rgb(187, 187, 187);
+    text-shadow: 4px 4px 3.5px rgb(187, 187, 187);
   }
   body{
     background-color: rgb(24, 19, 64);
