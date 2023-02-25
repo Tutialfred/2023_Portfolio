@@ -1184,9 +1184,7 @@ li img {
   body{
     background-color: rgb(24, 19, 64);
   }
-  .react{
-    /* background-color: rgb(238, 213, 48) ; */
-  }
+ 
   .lista{
     /* margin-top: 90px !important; */
     /* background-color: #294f06; */
@@ -1215,7 +1213,7 @@ li img {
 
 
 
-
+/* sadasd */
 
 
 
@@ -1227,34 +1225,36 @@ li img {
 
 
 /* ! SOBRE MI */
-.mains{
-  background-color: transparent!important;
-  background-color: blue;
-}
-.sobre-mi{
-  background-color: transparent;
-  /* background-color: red; */
-  width: 388.4px;
-}
+
+
+
 .video-background{
   /* background-color: gainsboro !important; */
   width: 411px !important;
 }
 .perfil{
-  background-color: rebeccapurple;
+  background-color: transparent;
   width: 409px;
   position: relative;
   right:  9.7px;
   
 }
-
+.h2Title{
+  background-color: transparent;
+  font-size: 45px !important;
+  letter-spacing: 0.3px;
+}
 .parrafo{
   color: rgb(255, 255, 255) !important;
   font-size: 24px !important;
   letter-spacing: 0.5px;
+  margin: 0 10px;
 }
 
-
+.image{
+  border-radius: 0px !important;
+  margin-bottom: 30px !important;
+}
 
 
 
