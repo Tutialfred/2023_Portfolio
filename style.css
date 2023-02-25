@@ -1,0 +1,1115 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+/* Estilos para pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 2.25rem !important;
+    /* color: red !important; */
+  }
+
+  .developer {
+    font-size: 1.3rem !important;
+  }
+
+  .animal-links {
+    font-size: 1rem !important;
+    user-select: none !important;
+
+    /* background-color: green; */
+    width: 100%;
+  }
+
+  .animal-links a {
+    /* background-color: blue; */
+    margin: 0 18px;
+    user-select: none !important;
+  }
+
+  .iconoTwitter {
+    /* background-color: red; */
+    position: absolute;
+    left: -40px;
+  }
+
+  .twitter {
+    background-color: transparent !important;
+  }
+}
+
+/* ------------------------- */
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+}
+
+/* Estilos para dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+  /* Estilos del header */
+  header {
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  /* Estilos de las secciones */
+  section {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Estilos de las listas */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+}
+
+/* Estilos para dispositivos medianos y grandes */
+@media only screen and (min-width: 601px) {
+  /* Estilos del header */
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #3b3b3b;
+    color: white;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+  }
+
+  /* Estilos de las secciones */
+  section {
+    margin: 50px;
+    padding: 20px;
+  }
+}
+
+.animal-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animal-images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+  border: 3px solid #7c4c4c;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .animal-images img {
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .animal-images img {
+    width: 31%;
+    margin: 1%;
+  }
+}
+
+.animal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: #1e6ba8; */
+  padding: 20px;
+  border-radius: 10px;
+  user-select: none !important;
+}
+
+.animal-links a {
+  display: flex;
+  /* color: #000000; */
+
+  /* margin: 10px; */
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  /* padding: 10px; */
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: transparent;
+  display: inline-flex;
+}
+
+/* ! ICONOS LOGO */
+/* ? ALL */
+.icono {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 8px !important;
+  font-weight: 100;
+}
+
+/* ? LEMON */
+.iconoLemon {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 7px !important;
+  font-weight: 100;
+}
+
+/* ? YOU TUBE */
+.iconoYoutube {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 9px !important;
+  font-weight: 100;
+}
+
+/* ? EMAIL */
+.iconoEmail {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 9px !important;
+  font-weight: 100;
+}
+
+/* ? LINKEDIN */
+.iconoLinkedin {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 6px !important;
+  font-weight: 100;
+}
+
+/* ? WHATSAPP */
+.iconoWhatsapp {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 6.5px !important;
+  font-weight: 100;
+}
+
+/* ? TWITTER */
+.iconoTwitter {
+  color: rgb(255, 255, 255);
+  font-size: 29px !important;
+  position: relative;
+  bottom: 10px !important;
+  right: 7px !important;
+  font-weight: 100;
+}
+
+/* ! LINKS A PERFILES */
+
+/* ? TWITTER */
+.animal-links a.twitter {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background-color: rgb(29, 161, 242);
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+.animal-links a.twitter:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  background-color: rgb(29, 161, 242);
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+/* ? WHATSAPP */
+.animal-links a.whatsapp:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  font-weight: 100;
+}
+
+.animal-links a.whatsapp {
+  transition: 0.7s all;
+  background-color: #25d366;
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+/* ? CALENDLY */
+.animal-links a.calendly:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  font-weight: 100;
+}
+
+.animal-links a.calendly {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background-color: lightblue;
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+/* ? GIT HUB */
+.animal-links a.github {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background-color: #181717;
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+.animal-links a.github:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  /* background-color:  #181717; */
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+/* ? LINKEDIN */
+.animal-links a.linkedin {
+  transition: 0.7s all;
+  /* transform: translateY(-15px); */
+  background-color: #0a66c2;
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+.animal-links a.linkedin:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  /* background-color: #0A66C2; */
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+/* ? EMAIL */
+.animal-links a.email {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background-color: rgb(255, 115, 0);
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+.animal-links a.email:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  /* background-color:  rgb(255, 115, 0); */
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+/* ? LEMON */
+.animal-links a.lemoncash {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background-color: #ffd54f;
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+.animal-links a.lemoncash:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  /* background-color:  #FFD54F; */
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+/* ? YOU TUBE */
+.animal-links a.youtube {
+  transition: 0.7s all;
+  /* transform: translateY(-10px); */
+  background-color: #ff0000;
+  font-weight: 100;
+  border: 1px solid black;
+}
+
+.animal-links a.youtube:hover {
+  transition: 0.7s all;
+  transform: translateY(-10px);
+  background-color: #ff0000;
+  font-weight: 100;
+  /* border: 3px solid black; */
+}
+
+.icon {
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  -webkit-animation: pulse 1.3s infinite;
+  animation: pulse 1.3s infinite;
+}
+
+@media only screen and (min-width: 768px) {
+  .animal-links a {
+    font-size: 85px;
+    margin: 20px;
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .animal-links a {
+    font-size: 20px;
+    /* margin: 30px; */
+    /* padding: 25px; */
+  }
+}
+
+/* ! PROBANDO EL DE PORTFOLIO ANTERIOR */
+
+@media only screen and (min-width: 550px) {
+  .header-icons .icon {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+  }
+}
+
+.icon {
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  -webkit-animation: pulse 1.3s infinite;
+  animation: pulse 1.3s infinite;
+}
+
+/*! VIDEO BACKGROUND */
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: -1; */
+}
+
+.video-background .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  /* background-color: red; */
+  position: relative;
+}
+
+.name {
+  font-size: 76px;
+  width: 900px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  /* background-color: rebeccapurple; */
+  font-weight: 100;
+  user-select: none;
+}
+
+.developer {
+  font-size: 32px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  margin-top: 30px;
+  /* top: 10px; */
+  /* position:relative; */
+  font-weight: 100;
+  user-select: none;
+}
+
+.profiles {
+  /* background-color: rgb(0, 188, 217); */
+  background-color: transparent;
+  position: relative;
+  top: 550px;
+  user-select: none;
+}
+
+/* --------------- CHAT GPT */
+
+.linkes {
+  /* background-color: red; */
+  text-align: center;
+}
+
+.down {
+  position: absolute;
+  left: 750px;
+  top: 210px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#project {
+  /* background-color: red; */
+}
+
+/* ! SOBRE MI */
+
+.sobre-mi {
+  width: 92%;
+  max-height: 317vh;
+  margin: 0 auto;
+  /* padding: 40px; */
+
+  color: #ffffff;
+  background-color: #06234f;
+  /* border-radius: 20px; */
+}
+
+.bg1 {
+  /* z-index: 1; */
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.perfil img {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  margin-right: 45px;
+  object-fit: cover;
+}
+
+.informacion h2 {
+  color: #003366;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.informacion p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.habilidades {
+  margin-top: 40px;
+}
+
+.habilidades h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.categoria {
+  flex-basis: calc(34.33% - 90px);
+  /* margin-bottom: 40px; */
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  /* margin: 0; */
+}
+
+.h4Title {
+  /* background-color: red; */
+  font-size: 31px !important;
+  color: black !important;
+  font-family: proxima-nova, sans-serif;
+}
+
+.categoria ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categoria li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.categoria li:hover {
+  transform: scale(1.1);
+}
+
+.categoria li img {
+  width: 80px;
+  height: 80px;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+  /* object-fit: cover; */
+}
+
+.categoria li span {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+}
+
+.categoria h4 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.categoria p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.frontend {
+  background-color: #f2f2f2;
+}
+
+.backend {
+  background-color: #e6e6e6;
+}
+
+.learning {
+  background-color: #d9d9d9;
+}
+
+.mains {
+  background-color: #06234f;
+}
+
+.parrafo {
+  /* background-color: brown; */
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 21px !important;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  color: #176efa;
+  color: #333;
+  /* margin: 0; */
+}
+
+.h2Title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px !important;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #333;
+  margin: 0;
+  /* text-align: center !; */
+  color: rgb(0, 255, 68) !important;
+  user-select: none;
+}
+
+.web3Profile {
+  /* background-color: #fabec0; */
+  text-align: center;
+  /* top: 10px; */
+  position: relative;
+  width: 1518.5px;
+  left: -60px;
+  height: 1450px;
+}
+
+.h1web3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px !important;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #333;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 0.5px rgb(0, 0, 0);
+
+  user-select: none;
+  position: relative;
+  top: 25px;
+}
+
+.fotoweb3 {
+  /* background-color: red; */
+  width: 450px;
+  top: 45px;
+  position: relative;
+  outline: 1px solid rgb(109, 109, 109);
+  border-radius: 20px;
+}
+
+.fotoweb3:hover {
+  outline: 2.9px solid white;
+  /* transition: .5s; */
+  transform: scale(1.1);
+  transition: 1.3s;
+}
+
+/* ! PROJECTOS */
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 140px;
+  left: -10px;
+  gap: 5rem;
+  /* bottom: -2250px; */
+}
+
+.projectT {
+  /* background-color: red; */
+  position: absolute;
+  top: 70px;
+  left: 90px;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif !important;
+}
+
+.project-card {
+  max-width: 400px;
+  background-color: white;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 20px;
+  outline: 3px solid rgb(0, 0, 0);
+  overflow: hidden;
+  user-select: none;
+  /* height: 685px; */
+  max-height: 600px;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  /* box-shadow: 9px -9px 9px rgb(255, 255, 255); */
+  transition: 0.6s;
+}
+
+.code {
+  /* color: red !important; */
+  font-size: 20px;
+  position: relative;
+  top: 1.5px;
+  border-bottom: 0.1px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 1.7rem;
+  margin: 0.7rem;
+  color: black;
+  user-select: none;
+}
+
+.project-card p {
+  font-size: 1.05rem !important;
+  color: #272727;
+  margin: 0.7rem 0.8rem;
+  font-weight: 100 !important;
+  user-select: none;
+  /* font-family: ' ', sans-serif; */
+  letter-spacing: 0.1px;
+  font-family: "Montserrat", sans-serif;
+
+  /* font-weight: 100; */
+}
+
+.project-card a {
+  /* display: block;
+      background-color: hsl(161, 100%, 55%);
+      color: #000000;
+      text-align: center;
+      padding: .7rem 0;
+      text-decoration: none;
+      user-select: none;
+      align-items: end; */
+  text-decoration: none;
+}
+
+/* .project-card a:hover {
+      background-color: #0f7df3;
+      transition: .5s;
+    } */
+
+.h3title {
+  /* color: red; */
+  font-family: "Open Sans", Arial, sans-serif;
+  /* position: relative;
+      left: 20px; */
+  text-align: center;
+}
+
+/* Establecer los estilos para la lista */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Establecer los estilos para cada elemento de la lista */
+li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Establecer los estilos para las imágenes en cada elemento de la lista */
+li img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Establecer el ancho y la altura para las imágenes en cada elemento de la lista */
+li img {
+  width: 80px;
+  height: 80px;
+  margin: 4px 1px !important;
+}
+
+/* todo : colores de letras del projecto */
+.html {
+  width: 54px;
+  list-style: none;
+}
+
+.htmlo {
+  width: 60px;
+}
+
+.css {
+  width: 50px;
+  position: relative;
+  top: 3px;
+}
+
+.javascript {
+  width: 64px;
+  position: relative;
+  top: 3px;
+}
+
+.react {
+  width: 66px;
+  /* height: 80px !important; */
+  position: relative;
+  /* top: 4px; */
+  left: -5px;
+  /* background-color: rebeccapurple; */
+  padding: 0;
+  margin: 0;
+}
+
+.bootstrap {
+  width: 67px;
+  position: relative;
+  /* top: 7px; */
+}
+
+.solidity {
+  width: 34px;
+  position: relative;
+  /* top: 7px; */
+  /* margin: 0 12px; */
+}
+
+.h5 {
+  color: black;
+  font-weight: 10;
+  letter-spacing: 0.4px;
+  /* background-color: red; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !;
+  margin-top: 1.2rem;
+  margin-left: 12px;
+}
+
+.twitter-timeline {
+  position: relative;
+  left: 870px;
+  bottom: 730px;
+  border-radius: 0 !important;
+  user-select: none;
+}
+
+.asd {
+  /* background-color: rebeccapurple; */
+  position: relative;
+  left: 75px;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #06234f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+/* !CHAT GPT VIERNES */
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  /* Centrar texto del perfil */
+  .body {
+    overflow-x: hidden;
+  }
+
+  .informacion {
+    text-align: center;
+  }
+
+  /* Ajustar tamaño de la imagen del perfil */
+  .perfil img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Ajustar tamaño de las habilidades */
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .categoria {
+    flex-basis: 50%;
+  }
+
+  /* Ajustar tamaño de los logos de habilidades */
+  .categorias li img {
+    max-width: 30%;
+  }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media (min-width: 768px) {
+  /* Centrar texto del perfil */
+  .informacion {
+    text-align: center;
+  }
+
+  /* Ajustar tamaño de la imagen del perfil */
+  .perfil img {
+    max-width: 40%;
+    margin-right: 40px;
+    float: left;
+  }
+
+  /* Ajustar tamaño de las habilidades */
+  .categorias {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .categoria {
+    flex-basis: 30%;
+  }
+
+  /* Ajustar tamaño de los logos de habilidades */
+  .categorias li img {
+    max-width: 50%;
+  }
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .project-card {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .h3title {
+    font-size: 20px;
+  }
+
+  .h5 {
+    font-size: 16px;
+  }
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  .project-card {
+    max-width: 500px;
+    padding: 10px;
+  }
+
+  .h3title {
+    font-size: 24px;
+  }
+
+  .h5 {
+    font-size: 16px;
+  }
+
+  ul {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para pantallas más pequeñas (hasta 576px) */
+@media (max-width: 576px) {
+  .project-card {
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  .h3title {
+    font-size: 20px;
+  }
+
+  .h5 {
+    font-size: 14px;
+  }
+
+  ul {
+    font-size: 12px;
+  }
+}
+
+/* Estilos para pantallas más pequeñas (hasta 414px) */
+@media (max-width: 414px) {
+  .project-card {
+    /* background-color: rgb(244, 46, 46); */
+    max-height: 1005px;
+    /* display: block; */
+    padding: 0;
+    /* padding-bottom: -10px !important; */
+    margin-top: 100px;
+  }
+  .web3Profile {
+    background-color: #fabec0;
+    text-align: center;
+    /* top: 10px; */
+    position: relative;
+    width: 414px;
+    /* left: -60px; */
+    height: 3290px;
+    /* margin-top: 105px; */
+    /* justify-content: space-between; */
+  }
+  .mains{
+    /* background-color: red; */
+    width: 370px;
+  }
+  .video-background{
+    width: 369.5px;
+  }
+  .h2Title{
+    background-color: beige;
+    position: relative;
+    text-align: center;
+  }
+  .perfil{
+    background-color: green;
+    display: block;
+  }
+  /* .image {
+    background-color: #0792bc !important;
+  } */
+  .contratoInteligente{
+    /* background-color: rebeccapurple; */
+    max-width: 305px !important;
+    left: -1px;
+    position: relative;
+  }
+
+  .project-list {
+    /* background-color: rgb(169, 32, 255); */
+    display: inline-block;
+    position: absolute;
+    left: 82px;
+    max-height: 1900px;
+  }
+
+  .h3title {
+    font-size: 18px;
+  }
+
+  .h5 {
+    font-size: 12px;
+  }
+
+  ul {
+    font-size: 10px;
+  }
+}
