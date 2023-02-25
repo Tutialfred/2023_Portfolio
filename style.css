@@ -1058,8 +1058,20 @@ li img {
     position: relative;
     left: 21.5px;
   }
+  .projectT {
+    /* background-color: red; */
+    position: relative;
+    top: 130px;
+    left: 22px;
+    margin-right: 40px;
+    font-size: 70px;
+    letter-spacing: 0.1px;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: proxima-nova, sans-serif !important;
+  }
   .web3Profile {
-    background-color: #fabec0;
+    background-color: #0c684d;
     text-align: center;
     /* top: 10px; */
     position: relative;
@@ -1067,7 +1079,7 @@ li img {
     /* left: -13.5px; */
     /* padding: 5px; */
     /* left: -60px; */
-    height: 3290px;
+    height: 3360px;
     padding-left: 46.59px;
     /* margin-top: 105px; */
     /* justify-content: space-between; */
@@ -1094,7 +1106,7 @@ li img {
   .contratoInteligente{
     /* background-color: rebeccapurple; */
     max-width: 305px !important;
-    left: -1px;
+    left: 18px;
     position: relative;
   }
 
