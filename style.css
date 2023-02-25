@@ -1050,18 +1050,22 @@ li img {
 @media (max-width: 414px) {
   .project-card {
     /* background-color: rgb(244, 46, 46); */
-    max-height: 1005px;
+    max-height: 1015px !important;
     /* display: block; */
     padding: 0;
     /* padding-bottom: -10px !important; */
-    margin-top: 100px;
+    margin-top: 115px;
+    position: relative;
+    left: -23px;
   }
   .web3Profile {
     background-color: #fabec0;
     text-align: center;
     /* top: 10px; */
     position: relative;
-    width: 414px;
+    width: 411px;
+    left: -13.5px;
+    /* padding: 5px; */
     /* left: -60px; */
     height: 3290px;
     /* margin-top: 105px; */
