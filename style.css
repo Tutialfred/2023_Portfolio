@@ -1158,12 +1158,14 @@ li img {
     /* padding-right: -1850px; */
     position: relative;
     left: 40px;
+    
   }
   .h4Title{
     /* background-color: blue !important; */
     /* width: 380px; */
     padding: 30px 0;
-    font-size: 40px !important;
+    letter-spacing: 1px;
+    font-size: 45px !important;
     font-weight: 100;
     text-shadow: 4px 4px 3.5px rgb(187, 187, 187);
   }
@@ -1171,15 +1173,30 @@ li img {
     background-color: rgb(24, 19, 64);
   }
   .react{
-    background-color: rgb(0, 255, 68) ;
+    /* background-color: rgb(238, 213, 48) ; */
   }
   .lista{
-    /* background-color: #06234f; */
-
+    /* margin-top: 90px !important; */
+    background-color: #294f06;
     width: 300px;
     height: 500px;
     
   }
+.catdos{
+  /* background-color: red !important; */
+  margin-bottom: 50px;
+}
+.javascript{
+  background-color: red
+
+}
+
+
+
+
+
+
+
 
 
 }
