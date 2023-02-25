@@ -1048,7 +1048,11 @@ li img {
 
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
+  a{
+    text-decoration: none !important;
+  }
   .project-card {
+    
     /* background-color: rgb(244, 46, 46); */
     max-height: 1015px !important;
     /* display: block; */
@@ -1057,9 +1061,13 @@ li img {
     margin-top: 115px;
     position: relative;
     left: 21.5px;
+    text-decoration: none !important;
+
   }
+  
   .projectT {
     /* background-color: red; */
+    /* text-decoration: dashed; */
     position: relative;
     top: 130px;
     left: 22px;
@@ -1095,6 +1103,7 @@ li img {
     background-color: beige;
     position: relative;
     text-align: center;
+
   }
   .perfil{
     background-color: green;
@@ -1115,11 +1124,15 @@ li img {
     display: inline-block;
     position: absolute;
     left: 82px;
+
     max-height: 1900px;
   }
 
   .h3title {
     font-size: 18px;
+    /* background-color: rebeccapurple; */
+    /* text-decoration: underline; */
+
   }
 
   .h5 {
@@ -1129,4 +1142,44 @@ li img {
   ul {
     font-size: 10px;
   }
+
+
+
+/* ! APARTADO DE HABILIDADES  */
+
+  .categorias{
+    /* background-color: rebeccapurple; */
+    align-items: end;
+    /* margin-top: 30px !important; */
+  }
+  .categorias{
+    /* background-color: rgb(0, 234, 255); */
+    /* padding-left: 200px; */
+    /* padding-right: -1850px; */
+    position: relative;
+    left: 40px;
+  }
+  .h4Title{
+    /* background-color: blue !important; */
+    /* width: 380px; */
+    padding: 30px 0;
+    font-size: 40px !important;
+    font-weight: 100;
+    text-shadow: 4px 4px 5px rgb(187, 187, 187);
+  }
+  body{
+    background-color: rgb(24, 19, 64);
+  }
+  .react{
+    background-color: rgb(0, 255, 68) ;
+  }
+  .lista{
+    /* background-color: #06234f; */
+
+    width: 300px;
+    height: 500px;
+    
+  }
+
+
 }
