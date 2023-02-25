@@ -1056,7 +1056,7 @@ li img {
     /* padding-bottom: -10px !important; */
     margin-top: 115px;
     position: relative;
-    left: -23px;
+    left: 21.5px;
   }
   .web3Profile {
     background-color: #fabec0;
@@ -1064,10 +1064,11 @@ li img {
     /* top: 10px; */
     position: relative;
     width: 411px;
-    left: -13.5px;
+    /* left: -13.5px; */
     /* padding: 5px; */
     /* left: -60px; */
     height: 3290px;
+    padding-left: 46.59px;
     /* margin-top: 105px; */
     /* justify-content: space-between; */
   }
