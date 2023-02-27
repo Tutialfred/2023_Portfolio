@@ -1135,7 +1135,7 @@ li img {
   .project-card {
 
     /* background-color: rgb(244, 46, 46); */
-    max-height: 1015px !important;
+    max-height: 1815px !important;
     max-width: 410px !important;
     /* display: block; */
     padding: 0;
@@ -1221,11 +1221,14 @@ li img {
   } */
   .contratoInteligente {
     /* background-color: rebeccapurple; */
-    max-width: 335px !important;
-    max-height: 1020vh !important;
+    /* max-height: 1620vh !important; */
     left: 2px !important;
     position: relative;
+    /* bottom: -10px !important; */
+    /* max-width: 335px !important; */
     /* margin-bottom: 110px !important; */
+    /* padding-bottom: 90px; */
+
   }
 
   .project-list {
@@ -1314,7 +1317,7 @@ li img {
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
-    left: 43px;
+    left: 47px;
 
   }
 
@@ -1474,6 +1477,11 @@ li img {
   top: 90px;
   font-size: 70px;
 }
+
+
+
+
+
 
 }
 
