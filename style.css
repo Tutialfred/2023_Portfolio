@@ -1285,7 +1285,7 @@ li img {
   }
   .video-background{
     max-height: 780px;
-    max-width: 500px !important;
+    max-width: 505px !important;
 
   }
 
@@ -1429,11 +1429,12 @@ li img {
     background-color: red;
   } */
   .sobre-mi{
-    /* background-color: #ff0000; */
+    background-color: #ff0000;
     max-width: 500px !important;
-    /* background-color: black; */
+    background-color: black;
     height:3920px;
-    max-width: 391px !important;
+    max-width: 392px !important;
+    /* border: 3px solid blue; */
 
 
   }
