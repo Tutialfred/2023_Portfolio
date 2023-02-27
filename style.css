@@ -1,6 +1,8 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
 @import url(https://fonts.googleapis.com/css?family=Rubik);
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
 
 /* Estilos para pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
@@ -495,23 +497,31 @@
   text-decoration: none;
 }
 
-#project {
-  /* background-color: red; */
-}
+
 
 /* ! SOBRE MI */
 
 .sobre-mi {
-  width: 92%;
-  max-height: 317vh;
+  width: 1500px;
+  height: 159vh;
   margin: 0 auto;
   /* padding: 40px; */
-
+  /* border: 3px solid red; */
   color: #ffffff;
-  background-color: #06234f;
+  background-color: #000000;
   /* border-radius: 20px; */
+  padding: 10px !important;
+
 }
 
+.ound{
+  background-color: #0c684d;
+  /* z-index: 1; */
+  position: relative;
+  top: 50px;
+  width: 1583px !important;
+
+}
 .bg1 {
   /* z-index: 1; */
 }
@@ -524,13 +534,26 @@
 }
 
 .perfil img {
-  width: 330px;
-  height: 330px;
-  border-radius: 50%;
-  margin-right: 45px;
+  width: 500px;
+  height: 500px;
+  /* border-radius: 50%; */
+  /* margin-right: 105px !important; */
+  
   object-fit: cover;
 }
-
+.project-list{
+  background-color: #0c684d;
+  position: relative;
+  left: 10px !important;
+  top: 170px !important;
+  height: 1400px;
+  /* padding: 100px !important; */
+}
+.contratoInteligente{
+  /* background-color: rebeccapurple !important; */
+  position: relative;
+  left: 75px !important; 
+}
 .informacion h2 {
   color: #003366;
   font-size: 36px;
@@ -643,7 +666,7 @@
 }
 
 .mains {
-  background-color: #06234f;
+  background-color: #000000;
 }
 
 .parrafo {
@@ -659,14 +682,16 @@
 
 .h2Title {
   font-family: "Montserrat", sans-serif;
-  font-size: 38px !important;
+  font-size: 50px !important;
   line-height: 1.2;
+  font-weight: 100 !important;
   letter-spacing: 0.5px;
   color: #333;
   margin: 0;
   /* text-align: center !; */
   color: rgb(0, 255, 68) !important;
   user-select: none;
+  font-family: 'Nuosu SIL', serif;
 }
 
 .web3Profile {
@@ -912,11 +937,11 @@ li img {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #06234f;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /* !CHAT GPT VIERNES */
@@ -961,9 +986,35 @@ li img {
 
   /* Centrar texto del perfil */
   .informacion {
-    text-align: center;
+    text-align: left;
+    /* background-color: rebeccapurple; */
+    margin: 0 40px;
+    font-size: 3000px !important;
   }
 
+  .parrafo{
+    background-color: transparent;
+    /* background-color: red ; */
+    font-size: 23px !important;
+    letter-spacing: .7px !important;
+  }
+  .logo{
+    /* background-color: green; */
+    width: 150px;
+  }
+  .h4Title {
+    /* background-color: blue !important; */
+    /* width: 380px; */
+    /* padding: 30px 0; */
+    letter-spacing: 1px;
+    font-size: 35px !important;
+    font-weight: 100;
+    text-shadow: 4px 4px 3.5px rgb(187, 187, 187);
+  }
+  .css2{
+    /* background-color: red !important; */
+    width: 62px !important; 
+  }
   /* Ajustar tamaño de la imagen del perfil */
   .perfil img {
     max-width: 40%;
@@ -985,6 +1036,20 @@ li img {
   .categorias li img {
     max-width: 50%;
   }
+ .categorias{
+  /* background-color: rebeccapurple; */
+  width: 1300px;
+  position: relative;
+  left: 80px;
+  top: 25px;
+  /* margin: 10px 0 !important; */
+  
+ }
+ .catdos{
+  max-width: 350px !important;
+  /* padding: -100px; */
+  /* background-color: red; */
+ }
 }
 
 /* Media queries para pantallas más pequeñas */
@@ -1325,9 +1390,9 @@ li img {
 
   /* ! FOTO - BIENVENIDO - DESCRIPCION */
 
-  /* .informacion{
+   /* .informacion{
     background-color: rebeccapurple;
-  } */
+   }  */
   .mains{
     background-color: red;
   }
