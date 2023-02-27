@@ -1179,11 +1179,27 @@ li img {
   .video-background {
     width: 369.5px;
   }
+  .imagenLogo{
+    /* width: 960px !important; */
+    /* background-color: rebeccapurple; */
+    /* height: 100px !important; */
+    display: inline-flex;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 300px !important;
+  }
+  .logo{
+      /* font-size: 200px !important;  */
+    /* background-color: blue; */
+    max-width: 500px !important;
+    /* border: 3px solid rgb(17, 28, 17); */
+  }
 
   .h2Title {
     background-color: beige;
     position: relative;
     text-align: center;
+    font-family: 'Nuosu SIL', serif !important;
 
   }
 
@@ -1304,24 +1320,24 @@ li img {
   }
 
   .catdos {
-    /* background-color: red !important; */
-    margin-bottom: 50px;
+    /* background-color: rered !important; */
+    margin-bottom: 120px !important;
   }
 
   .logo {
     /* background-color: red; */
     padding: 0;
     /* width: 150px;; */
-    margin-top: -15px !important;
+    /* margin-top: -15px !important; */
     position: relative;
-    top: 10px;
+    /* top: 10px; */
+    /* max-width: 300px !important; */
   }
-
-  .imagenLogo {
-    width: 340px !important;
-    /* background-color: rgb(0, 255, 17); */
-    /* width: 100%; */
-    /* z-index: 1; */
+  .imagenLogo{
+   /* font-size: 50px; */
+   /* width: 70px !important; */
+   /* height: 160px !important; */
+    /* background-color: blueviolet; */
   }
 
 
@@ -1408,7 +1424,12 @@ li img {
 
 
 
+  body {
+    overflow: hidden;
+  }
 
 
-
+}|
+body {
+  overflow: hidden;
 }
