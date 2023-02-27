@@ -511,6 +511,7 @@
   background-color: #000000;
   /* border-radius: 20px; */
   padding: 10px !important;
+  margin: 0;
 
 }
 
@@ -542,11 +543,11 @@
   object-fit: cover;
 }
 .project-list{
-  background-color: #0c684d;
+  /* background-color: #0c684d; */
   position: relative;
-  left: 10px !important;
-  top: 170px !important;
-  height: 1400px;
+  /* left: 10px !important; */
+  /* top: 170px !important; */
+  /* height: 1400px; */
   /* padding: 100px !important; */
 }
 .contratoInteligente{
@@ -695,12 +696,13 @@
 }
 
 .web3Profile {
-  /* background-color: #fabec0; */
+  /* background-color: #d92e33; */
   text-align: center;
   /* top: 10px; */
   position: relative;
   width: 1518.5px;
-  left: -60px;
+  left: 50px;
+  top: -30px;
   height: 1450px;
 }
 
@@ -750,11 +752,13 @@
 .projectT {
   /* background-color: red; */
   position: absolute;
-  top: 70px;
-  left: 90px;
+  top: 50px;
+  /* left: 10px; */
   font-size: 50px;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-weight: 100;
+  text-shadow: 2.5px 3px 2px rgb(0, 0, 0);
   font-family: "Raleway", sans-serif !important;
+  font-size: 65px;
 }
 
 .project-card {
@@ -1135,42 +1139,54 @@ li img {
     /* display: block; */
     padding: 0;
     /* padding-bottom: -10px !important; */
-    margin-top: 115px;
+    /* margin-top: 115px; */
     position: relative;
-    left: 21.5px;
+    /* left: 55px; */
     text-decoration: none !important;
+    align-items: center;
 
   }
+  .tuti2{
+    background-color: green !important;
+   position: relative;
+    /* left: -10px */
+  };
 
   .projectT {
     /* background-color: red; */
     /* text-decoration: dashed; */
     position: relative;
-    top: 130px;
-    left: 22px;
-    margin-right: 40px;
+    /* top: 130px; */
+    left: 20px;
+    top: 20px;
+    /* margin-right: 40px; */
     font-size: 70px;
     letter-spacing: 0.1px;
     font-weight: 100;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: 2.5px 3px 2px rgb(0, 0, 0);
     font-family: proxima-nova, sans-serif !important;
   }
 
   .web3Profile {
-    background-color: #0c684d;
+    /* background-color: #1eff00 !important; */
     text-align: center;
     /* top: 10px; */
-    position: relative;
-    width: 411px;
+    /* position: relative; */
+    max-width: 350px;
+    margin: 0;
+    /* max-height: 38999px !important; */
     /* left: -13.5px; */
     /* padding: 5px; */
     /* left: -60px; */
-    height: 3360px;
-    padding-left: 46.59px;
+    /* height: 3360px; */
+    /* padding-left: 46.59px; */
     /* margin-top: 105px; */
     /* justify-content: space-between; */
   }
-
+  .ound{
+    /* background-color: blue; */
+    max-height: 3900px !important;
+  }
   .mains {
     /* background-color: red; */
     width: 370px;
@@ -1203,8 +1219,9 @@ li img {
 
   }
 
+
   .perfil {
-    background-color: green;
+    /* background-color: green; */
     display: block;
   }
 
@@ -1214,19 +1231,27 @@ li img {
   .contratoInteligente {
     /* background-color: rebeccapurple; */
     max-width: 305px !important;
-    left: 18px;
+    left: 2px !important;
     position: relative;
+    margin-bottom: 60px !important;
   }
 
   .project-list {
-    /* background-color: rgb(169, 32, 255); */
-    display: inline-block;
-    position: absolute;
-    left: 82px;
-
-    max-height: 1900px;
+    /* background-color: #00ffb3; */
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* left: -60px; */
+    max-width: 300px;
+    /* align-items: ; */
+    /* top: 10px */
+    /* align-items: center; */
+    /* max-height: 3500px !important; */
+    /* max-height: 1900px; */
+    /* padding-right: -150px; */
   }
-
+.web3Profile{
+  background-color: transparent;
+}
   .h3title {
     font-size: 18px;
     /* background-color: rebeccapurple; */
@@ -1265,6 +1290,8 @@ li img {
   }
   .video-background{
     max-height: 780px;
+    max-width: 500px !important;
+
   }
 
 
@@ -1351,8 +1378,6 @@ li img {
 
 
 
-
-
   /* ! SOBRE MI */
 
 
@@ -1360,6 +1385,7 @@ li img {
   .video-background {
     /* background-color: gainsboro !important; */
     width: 411px !important;
+    margin: 0;
   }
 
   .perfil {
@@ -1388,6 +1414,7 @@ li img {
   .image {
     border-radius: 0px !important;
     margin-bottom: 30px !important;
+    width: 350px;
   }
 
   /* ! ICONOS DE PERFILES (BACKGROUND VIDEO PROFILE) */
@@ -1409,24 +1436,40 @@ li img {
    /* .informacion{
     background-color: rebeccapurple;
    }  */
-  .mains{
+  /* .mains{
     background-color: red;
-  }
+  } */
   .sobre-mi{
-    background-color: blue;
-    width: 392px;
-    background-color: black;
-    max-height:3790px;
+    /* background-color: #ff0000; */
+    max-width: 500px !important;
+    /* background-color: black; */
+    height:3920px;
+    max-width: 391px !important;
+
 
   }
 
 
-
+  /* .perfil img { */
+    /* max-width: 10%; */
+    /* margin: 0 auto; */
+    /* display: block; */
+    /* width: 500px !important; */
+  /* } */
+  .image{
+    background-color: red !important;
+    /* border: 3px solid blue; */
+    max-width: 300px !important;
+    /* max-height: 350px; */
+  }
 
 
   body {
     overflow-x: hidden;
+    background-color: #0c684d;
+    max-width: 300px !important;
   }
+  
 
 
 }|
