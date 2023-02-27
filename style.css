@@ -1307,10 +1307,7 @@ li img {
     margin-bottom: 30px !important;
   }
 
-  /* ? ICONOS DE PERFILES (BACKGROUND VIDEO PROFILE) */
-
-
-
+  /* ! ICONOS DE PERFILES (BACKGROUND VIDEO PROFILE) */
   .animal-links a {
     /* font-size: 85px; */
     margin: 22px;
@@ -1321,6 +1318,29 @@ li img {
     /* font-size: 600px !important */
     top: -140px;
   }
+
+  /* ! SOBRE MI  */
+
+  /* ! FOTO - BIENVENIDO - DESCRIPCION */
+
+  /* .informacion{
+    background-color: rebeccapurple;
+  } */
+  .mains{
+    background-color: red;
+  }
+  .sobre-mi{
+    background-color: blue;
+    width: 390px;
+    background-color: black;
+    max-height:3790px;
+
+  }
+
+
+
+
+
 
 
 
