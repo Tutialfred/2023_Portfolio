@@ -558,6 +558,7 @@
   /* background-color: rebeccapurple !important; */
   position: relative;
   left: 75px !important; 
+  padding-bottom: 70px;
 }
 .informacion h2 {
   color: #003366;
@@ -819,7 +820,11 @@
   /* font-weight: 100; */
 }
 body{
-  background-color: #0c684d;
+  background-color: #000000;
+}
+a{
+  text-decoration: none !important;
+
 }
 
 .project-card a {
