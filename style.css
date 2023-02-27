@@ -1325,11 +1325,12 @@ li img {
   }
 
   .categorias {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
-    left: 37px;
+    left: 40px;
     margin: 0 ;
 
   }
