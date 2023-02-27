@@ -1173,17 +1173,17 @@ li img {
     font-size: 30px !important;
     color: #fff;
     position: relative;
-    top: -105px;
+    top: -55px;
   }
 
   .developer {
     /* background-color: goldenrod; */
     font-size: 19px !important;
     position: relative;
-    top: -105px;
+    top: -55px;
   }
   .video-background{
-    max-height: 770px;
+    max-height: 780px;
   }
 
 
