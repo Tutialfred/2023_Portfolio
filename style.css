@@ -1046,6 +1046,20 @@ li img {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  TODO → TODO ESTO PERTENECE AL TAMAÑO PERSONALIZADO DEL CELULAR */
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
   a{
@@ -1143,6 +1157,18 @@ li img {
     font-size: 10px;
   }
 
+
+
+  /* ! VIDEO PROFILE BACKGROUND */
+
+
+  .name{
+    /* background-color: brown !important; */
+    /* border: 3px solid black !important; */
+    /* color: green !important; */
+    font-size: 35px !important;
+    color: #fff;
+  }
 
 
 
