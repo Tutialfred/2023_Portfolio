@@ -52,6 +52,7 @@
 
 /* Estilos para dispositivos pequeños */
 @media only screen and (max-width: 600px) {
+
   /* Estilos del header */
   header {
     text-align: center;
@@ -84,6 +85,7 @@
 
 /* Estilos para dispositivos medianos y grandes */
 @media only screen and (min-width: 601px) {
+
   /* Estilos del header */
   header {
     display: flex;
@@ -928,6 +930,7 @@ li img {
 
 /* Estilos para pantallas pequeñas */
 @media (max-width: 767px) {
+
   /* Centrar texto del perfil */
   .body {
     overflow-x: hidden;
@@ -962,6 +965,7 @@ li img {
 
 /* Estilos para pantallas medianas y grandes */
 @media (min-width: 768px) {
+
   /* Centrar texto del perfil */
   .informacion {
     text-align: center;
@@ -1062,11 +1066,12 @@ li img {
 /*  TODO → TODO ESTO PERTENECE AL TAMAÑO PERSONALIZADO DEL CELULAR */
 /* Estilos para pantallas más pequeñas (hasta 414px) */
 @media (max-width: 414px) {
-  a{
+  a {
     text-decoration: none !important;
   }
+
   .project-card {
-    
+
     /* background-color: rgb(244, 46, 46); */
     max-height: 1015px !important;
     /* display: block; */
@@ -1078,7 +1083,7 @@ li img {
     text-decoration: none !important;
 
   }
-  
+
   .projectT {
     /* background-color: red; */
     /* text-decoration: dashed; */
@@ -1092,6 +1097,7 @@ li img {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-family: proxima-nova, sans-serif !important;
   }
+
   .web3Profile {
     background-color: #0c684d;
     text-align: center;
@@ -1106,27 +1112,32 @@ li img {
     /* margin-top: 105px; */
     /* justify-content: space-between; */
   }
-  .mains{
+
+  .mains {
     /* background-color: red; */
     width: 370px;
   }
-  .video-background{
+
+  .video-background {
     width: 369.5px;
   }
-  .h2Title{
+
+  .h2Title {
     background-color: beige;
     position: relative;
     text-align: center;
 
   }
-  .perfil{
+
+  .perfil {
     background-color: green;
     display: block;
   }
+
   /* .image {
     background-color: #0792bc !important;
   } */
-  .contratoInteligente{
+  .contratoInteligente {
     /* background-color: rebeccapurple; */
     max-width: 305px !important;
     left: 18px;
@@ -1162,14 +1173,15 @@ li img {
   /* ! VIDEO PROFILE BACKGROUND */
 
 
-  .name{
+  .name {
     /* background-color: brown !important; */
     /* border: 3px solid black !important; */
     /* color: green !important; */
     font-size: 29px !important;
     color: #fff;
   }
-  .developer{
+
+  .developer {
     /* background-color: goldenrod; */
     font-size: 19px !important;
   }
@@ -1185,24 +1197,26 @@ li img {
 
 
 
-  
 
-/* ! APARTADO DE HABILIDADES  */
 
-  .categorias{
+  /* ! APARTADO DE HABILIDADES  */
+
+  .categorias {
     /* background-color: rebeccapurple; */
     align-items: end;
     /* margin-top: 30px !important; */
   }
-  .categorias{
+
+  .categorias {
     /* background-color: rgb(0, 234, 255); */
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
     left: 40px;
-    
+
   }
-  .h4Title{
+
+  .h4Title {
     /* background-color: blue !important; */
     /* width: 380px; */
     padding: 30px 0;
@@ -1211,39 +1225,43 @@ li img {
     font-weight: 100;
     text-shadow: 4px 4px 3.5px rgb(187, 187, 187);
   }
-  body{
+
+  body {
     background-color: rgb(24, 19, 64);
   }
- 
-  .lista{
+
+  .lista {
     /* margin-top: 90px !important; */
     /* background-color: #294f06; */
     width: 300px;
     height: 500px;
-    
+
   }
-.catdos{
-  /* background-color: red !important; */
-  margin-bottom: 50px;
-}
-.logo{
-  /* background-color: red; */
-  padding: 0;
-  /* width: 150px;; */
-  margin-top: -15px !important;
-  position: relative;
-  top: 10px;
-}
-.imagenLogo{
-  width: 340px  !important;
-  /* background-color: rgb(0, 255, 17); */
-  /* width: 100%; */
-  /* z-index: 1; */
-}
+
+  .catdos {
+    /* background-color: red !important; */
+    margin-bottom: 50px;
+  }
+
+  .logo {
+    /* background-color: red; */
+    padding: 0;
+    /* width: 150px;; */
+    margin-top: -15px !important;
+    position: relative;
+    top: 10px;
+  }
+
+  .imagenLogo {
+    width: 340px !important;
+    /* background-color: rgb(0, 255, 17); */
+    /* width: 100%; */
+    /* z-index: 1; */
+  }
 
 
 
-/* sadasd */
+  /* sadasd */
 
 
 
@@ -1254,39 +1272,143 @@ li img {
 
 
 
-/* ! SOBRE MI */
+  /* ! SOBRE MI */
 
 
 
-.video-background{
-  /* background-color: gainsboro !important; */
-  width: 411px !important;
-}
-.perfil{
-  background-color: transparent;
-  width: 409px;
-  position: relative;
-  right:  9.7px;
-  
-}
-.h2Title{
-  background-color: transparent;
-  font-size: 45px !important;
-  letter-spacing: 0.3px;
-}
-.parrafo{
-  color: rgb(255, 255, 255) !important;
-  font-size: 24px !important;
-  letter-spacing: 0.5px;
-  margin: 0 10px;
-}
+  .video-background {
+    /* background-color: gainsboro !important; */
+    width: 411px !important;
+  }
 
-.image{
-  border-radius: 0px !important;
-  margin-bottom: 30px !important;
-}
+  .perfil {
+    background-color: transparent;
+    width: 409px;
+    position: relative;
+    right: 9.7px;
+
+  }
+
+  .h2Title {
+    background-color: transparent;
+    font-size: 45px !important;
+    letter-spacing: 0.3px;
+  }
+
+  .parrafo {
+    color: rgb(255, 255, 255) !important;
+    font-size: 24px !important;
+    letter-spacing: 0.5px;
+    margin: 0 10px;
+  }
+
+  .image {
+    border-radius: 0px !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* ? ICONOS DE PERFILES (BACKGROUND VIDEO PROFILE) */
 
 
+  /* .animal-links {
+    background-color: red !important;
+  } */
+
+  /* .proafiles {
+    background-color: green !important;
+  } */
+
+  .twitter {
+    background-color: yellow !important;
+  }
+
+  .twitter i {
+    /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    left: 50px !important;
+    font-size: 40px !important;
+    color: cadetblue;
+  }
+
+  .whatsapp i {
+    /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    left: 90px !important;
+    font-size: 40px !important;
+    color: #25d366;
+  }
+
+  .calendly i {
+    /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    top: 60px;
+    left: -45px;
+    font-size: 40px !important;
+    color: lightseagreen;
+  }
+
+  .linkedin i {
+
+     /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    top: 60px;
+    left: -6px;
+    font-size: 40px !important;
+    color: rgb(8, 74, 255);
+  }
+
+  .github i {
+   /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    top: 60px;
+    left: 30px;
+    font-size: 40px !important;
+    color: rgb(49, 49, 49);
+  }
+
+  .email i {
+     /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    top: 60px;
+    left: 4px;
+    font-size: 40px !important;
+    color: lightseagreen;
+  }
+
+  .lemoncash i {
+     /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    /* top: 60px; */
+    left: -100px;
+    font-size: 40px !important;
+    color: rgb(59, 178, 32);
+  }
+
+  .youtube i {
+         /* background-color: red !important; */
+    /* border: 3px solid blue; */
+    position: relative;
+    /* top: 60px; */
+    left: -80px;
+    font-size: 40px !important;
+    color: rgb(59, 178, 32);
+  }
+
+
+
+
+
+
+  .animal-links a {
+    background-color: rgb(255, 183, 0) !important;
+  }
 
 
 
