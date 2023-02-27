@@ -1360,13 +1360,6 @@ li img {
     /* top: 10px; */
     /* max-width: 300px !important; */
   }
-  .imagenLogo{
-   /* font-size: 50px; */
-   /* width: 70px !important; */
-   /* height: 160px !important; */
-    /* background-color: blueviolet; */
-  }
-
 
 
   /* sadasd */
@@ -1465,14 +1458,20 @@ li img {
 
 
   body {
-    overflow-x: hidden;
-    background-color: #0c684d;
-    max-width: 300px !important;
+    /* overflow-x: hidden; */
+    background-color: transparent;
+    /* max-width: -10px !important; */
+    /* overflow-x: hidden; */
+    /* padding: -30px !important; */
+    
+
   }
-  
+  ::-webkit-scrollbar {
+    display: none;
+}
 
 
-}|
-body {
-  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
 }
