@@ -1291,15 +1291,15 @@ li img {
 
   .h2Title {
     background-color: transparent;
-    font-size: 45px !important;
+    font-size: 47px !important;
     letter-spacing: 0.3px;
   }
 
   .parrafo {
     color: rgb(255, 255, 255) !important;
-    font-size: 24px !important;
-    letter-spacing: 0.5px;
-    margin: 0 10px;
+    font-size: 21px !important;
+    letter-spacing: 0.9px;
+    margin: 0 11px;
   }
 
   .image {
@@ -1331,7 +1331,7 @@ li img {
   }
   .sobre-mi{
     background-color: blue;
-    width: 390px;
+    width: 392px;
     background-color: black;
     max-height:3790px;
 
