@@ -1182,6 +1182,9 @@ li img {
     position: relative;
     top: -105px;
   }
+  .video-background{
+    max-height: 660px;
+  }
 
 
 
