@@ -1173,14 +1173,14 @@ li img {
     font-size: 30px !important;
     color: #fff;
     position: relative;
-    top: -180px;
+    top: -150px;
   }
 
   .developer {
     /* background-color: goldenrod; */
     font-size: 19px !important;
     position: relative;
-    top: -180px;
+    top: -150px;
   }
 
 
@@ -1312,11 +1312,11 @@ li img {
     /* font-size: 85px; */
     margin: 20px;
     padding: 23px;
-    /* background-color: red !important; */
+    background-color: red !important;
     position: relative;
     left: -15px;
     /* font-size: 600px !important */
-    top: -190px;
+    top: -150px;
   }
 
 
