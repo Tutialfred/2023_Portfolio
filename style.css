@@ -27,15 +27,8 @@
     user-select: none !important;
   }
 
-  .iconoTwitter {
-    /* background-color: red; */
-    position: absolute;
-    left: -40px;
-  }
 
-  .twitter {
-    background-color: transparent !important;
-  }
+
 }
 
 /* ------------------------- */
@@ -1310,104 +1303,15 @@ li img {
   /* ? ICONOS DE PERFILES (BACKGROUND VIDEO PROFILE) */
 
 
-  /* .animal-links {
-    background-color: red !important;
-  } */
-
-  /* .proafiles {
-    background-color: green !important;
-  } */
-
-  .twitter {
-    background-color: yellow !important;
-  }
-
-  .twitter i {
-    /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    left: 50px !important;
-    font-size: 40px !important;
-    color: cadetblue;
-  }
-
-  .whatsapp i {
-    /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    left: 90px !important;
-    font-size: 40px !important;
-    color: #25d366;
-  }
-
-  .calendly i {
-    /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    top: 60px;
-    left: -45px;
-    font-size: 40px !important;
-    color: lightseagreen;
-  }
-
-  .linkedin i {
-
-     /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    top: 60px;
-    left: -6px;
-    font-size: 40px !important;
-    color: rgb(8, 74, 255);
-  }
-
-  .github i {
-   /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    top: 60px;
-    left: 30px;
-    font-size: 40px !important;
-    color: rgb(49, 49, 49);
-  }
-
-  .email i {
-     /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    top: 60px;
-    left: 4px;
-    font-size: 40px !important;
-    color: lightseagreen;
-  }
-
-  .lemoncash i {
-     /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    /* top: 60px; */
-    left: -100px;
-    font-size: 40px !important;
-    color: rgb(59, 178, 32);
-  }
-
-  .youtube i {
-         /* background-color: red !important; */
-    /* border: 3px solid blue; */
-    position: relative;
-    /* top: 60px; */
-    left: -80px;
-    font-size: 40px !important;
-    color: rgb(59, 178, 32);
-  }
-
-
-
-
-
 
   .animal-links a {
-    background-color: rgb(255, 183, 0) !important;
+    /* font-size: 85px; */
+    margin: 20px;
+    padding: 23px;
+    /* background-color: red !important; */
+    position: relative;
+    left: -15px;
+    /* font-size: 600px !important */
   }
 
 
