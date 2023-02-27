@@ -1173,14 +1173,14 @@ li img {
     font-size: 30px !important;
     color: #fff;
     position: relative;
-    top: -150px;
+    top: -105px;
   }
 
   .developer {
     /* background-color: goldenrod; */
     font-size: 19px !important;
     position: relative;
-    top: -150px;
+    top: -105px;
   }
 
 
@@ -1310,13 +1310,13 @@ li img {
 
   .animal-links a {
     /* font-size: 85px; */
-    margin: 20px;
-    padding: 23px;
-    background-color: red !important;
+    margin: 22px;
+    padding: 23.5px;
+    /* background-color: red !important; */
     position: relative;
     left: -15px;
     /* font-size: 600px !important */
-    top: -150px;
+    top: -140px;
   }
 
 
