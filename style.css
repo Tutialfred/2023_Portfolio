@@ -1329,7 +1329,8 @@ li img {
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
-    left: 47px;
+    left: 26px;
+    margin: 0 ;
 
   }
 
@@ -1472,8 +1473,8 @@ li img {
 
   body {
     /* overflow-x: hidden; */
-    background-color: #0c684d;
-    max-width: 10px !important;
+    background-color: #0a0707;
+    /* max-width: 10px !important; */
     /* overflow-x: hidden; */
     /* padding: -30px !important; */
     
