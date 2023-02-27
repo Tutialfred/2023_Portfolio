@@ -1170,13 +1170,17 @@ li img {
     /* background-color: brown !important; */
     /* border: 3px solid black !important; */
     /* color: green !important; */
-    font-size: 29px !important;
+    font-size: 30px !important;
     color: #fff;
+    position: relative;
+    top: -180px;
   }
 
   .developer {
     /* background-color: goldenrod; */
     font-size: 19px !important;
+    position: relative;
+    top: -180px;
   }
 
 
@@ -1312,6 +1316,7 @@ li img {
     position: relative;
     left: -15px;
     /* font-size: 600px !important */
+    top: -190px;
   }
 
 
