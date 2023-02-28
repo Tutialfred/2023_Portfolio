@@ -1493,7 +1493,7 @@ li img {
     display: none;
 }
 .projectT{
-  background-color: rgb(31, 39, 92) !important;
+  background-color: transparent!important;
   position: relative;
   left: -12px;
   /* top: 90px; */
@@ -1504,7 +1504,7 @@ li img {
 }
 
 body{
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 
 
@@ -1523,8 +1523,10 @@ body{
 
 
 body{
-  background-color: #101110;
+  background-color: #000000 !important;
 }
+
+
 .project-card{
   background-color: #fff !important;
 }
@@ -1534,8 +1536,10 @@ body{
 
 
 body{
-  background-color: #101110;
+  background-color: #000000 !important;
 }
+
+
 
 
 
