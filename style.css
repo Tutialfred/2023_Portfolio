@@ -1493,9 +1493,9 @@ li img {
     display: none;
 }
 .projectT{
-  background-color: transparent!important;
+  background-color: tr!important;
   position: relative;
-  left: -12px;
+  left: -10px;
   /* top: 90px; */
   font-size: 75px;
   text-shadow: 1.5px 1.5px 9px rgb(255, 255, 255);
