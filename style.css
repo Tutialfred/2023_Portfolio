@@ -516,14 +516,15 @@
 }
 
 .ound{
-  background-color: transparent;
+  background-color: transparent !important;
   /* background-color: red; */
   /* z-index: 1; */
   position: relative;
-  top: 70px !important;
+  top: -200px !important;
   left: 30px !important;
   width: 1476px !important;
 
+  margin: 0 !important;
 }
 .bg1 {
   /* z-index: 1; */
@@ -701,7 +702,7 @@
 }
 
 .web3Profile {
-  background-color: #d92e33;
+  /* background-color: #000000; */
   text-align: center;
   /* top: 10px; */
   position: relative;
@@ -1326,15 +1327,15 @@ li img {
   /* ! APARTADO DE HABILIDADES  */
 
   .categorias {
-    /* background-color: rebeccapurple; */
+    background-color: rgb(121, 10, 233);
     /* align-items: end; */
     /* margin-top: 30px !important; */
     max-width: 200px;
   }
 
   .categorias {
-    background-color: rgb(0, 0, 0);
-    /* border: 2px solid white; */
+    background-color: #000;
+    /* border: 3px solid white; */
     /* padding-left: 200px; */
     /* padding-right: -1850px; */
     position: relative;
@@ -1354,7 +1355,7 @@ li img {
   }
 
   body {
-    background-color: rgb(24, 19, 64);
+    background-color: rgb(0, 0, 0);
   }
 
   .lista {
@@ -1455,10 +1456,10 @@ li img {
     background-color: red;
   } */
   .sobre-mi{
-    background-color: #ff0000;
+    background-color: #000 !important;
     max-width: 500px !important;
     background-color: black;
-    height:3920px;
+    height:3790px;
     max-width: 392px !important;
     /* border: 3px solid blue; */
 
@@ -1493,10 +1494,10 @@ li img {
     display: none;
 }
 .projectT{
-  background-color: tr!important;
+  background-color: transparent !important;
   position: relative;
   left: -21px;
-  top: 190px;
+  top: 180px;
   font-size: 55px;
   text-shadow: 2px 2px 7px rgb(255, 255, 255);
   letter-spacing: 2px !important;
