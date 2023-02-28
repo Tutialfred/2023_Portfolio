@@ -1492,9 +1492,10 @@ li img {
 .projectT{
   /* background-color: red !important; */
   position: relative;
-  left: -7px;
+  left: 1px;
   /* top: 90px; */
-  font-size: 75px;
+  font-size: 77px;
+  text-shadow: .1px .1px 7px rgb(255, 255, 255);
 }
 /* 
 body{
