@@ -1182,7 +1182,7 @@ li img {
 
   }
   .ound{
-    background-color: transparent;
+    background-color: rgb(0, 0, 0);
     max-height: 3900px !important;
     max-width: 352px;
     /* color: yellow; */
@@ -1490,13 +1490,14 @@ li img {
     display: none;
 }
 .projectT{
-  background-color: rgb(0, 0, 0) !important;
+  background-color: rgb(104, 104, 104) !important;
   position: relative;
-  left: -8px;
+  left: -12px;
   /* top: 90px; */
-  font-size: 78px;
+  font-size: 75px;
   text-shadow: 1.5px 1.5px 9px rgb(255, 255, 255);
-  letter-spacing: 3px !important;
+  letter-spacing: 4px !important;
+  font-weight: 100;
 }
 
 body{
@@ -1529,7 +1530,9 @@ body{
 }
 
 
-
+body{
+  background-color: #101110;
+}
 
 
 
