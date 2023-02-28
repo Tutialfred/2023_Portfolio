@@ -1495,12 +1495,13 @@ li img {
 .projectT{
   background-color: tr!important;
   position: relative;
-  left: -10px;
+  left: -21px;
   /* top: 90px; */
-  font-size: 70px;
+  font-size: 55px;
   text-shadow: 2px 2px 7px rgb(255, 255, 255);
-  letter-spacing: 4px !important;
+  letter-spacing: 2px !important;
   font-weight: 100;
+  text-align: start;
 }
 
 body{
