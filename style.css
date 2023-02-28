@@ -1505,7 +1505,12 @@ body{
 
 
 }
-
+.project-card{
+  background-color: #fff !important;
+}
+.catdos{
+  background-color: #fff !important;
+}
 
 
 body{
