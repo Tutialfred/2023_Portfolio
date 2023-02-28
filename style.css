@@ -1253,7 +1253,7 @@ li img {
     left: -5px !important;
     /* max-width: 340px; */
     /* max-height: 3800px !important; */
-    padding-bottom: 1500px  ;
+    padding-bottom: 1600px  ;
     /* align-items: ; */
     /* top: 10px */
     /* right: -20px !important; */
@@ -1492,9 +1492,9 @@ li img {
 .projectT{
   /* background-color: red !important; */
   position: relative;
-  left: -30px;
-  top: 90px;
-  font-size: 70px;
+  left: -7px;
+  /* top: 90px; */
+  font-size: 75px;
 }
 /* 
 body{
@@ -1514,7 +1514,7 @@ body{
 
 
 body{
-  background-color: #21e603;
+  background-color: #101110;
 }
 
 
