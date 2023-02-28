@@ -701,7 +701,7 @@
 }
 
 .web3Profile {
-  /* background-color: #d92e33; */
+  background-color: #d92e33;
   text-align: center;
   /* top: 10px; */
   position: relative;
@@ -1492,20 +1492,34 @@ li img {
 .projectT{
   background-color: rgb(0, 0, 0) !important;
   position: relative;
-  left: -7.5px;
+  left: -8px;
   /* top: 90px; */
-  font-size: 77px;
-  text-shadow: .8px .7px 8px rgb(255, 255, 255);
+  font-size: 78px;
+  text-shadow: 1.5px 1.5px 9px rgb(255, 255, 255);
   letter-spacing: 3px !important;
 }
-/* 
+
 body{
-  background-color: #c96666;
-} */
+  background-color: #000000;
+}
 
 
 
 
+
+}
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color: #101110;
 }
 .project-card{
   background-color: #fff !important;
@@ -1515,9 +1529,7 @@ body{
 }
 
 
-body{
-  background-color: #101110;
-}
+
 
 
 
