@@ -1497,9 +1497,9 @@ li img {
   position: relative;
   left: -10px;
   /* top: 90px; */
-  font-size: 75px;
+  font-size: 65px;
   text-shadow: 1.5px 1.5px 9px rgb(255, 255, 255);
-  letter-spacing: 4px !important;
+  letter-spacing: 3px !important;
   font-weight: 100;
 }
 
