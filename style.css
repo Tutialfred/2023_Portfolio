@@ -520,7 +520,7 @@
   /* background-color: red; */
   /* z-index: 1; */
   position: relative;
-  top: -90px !important;
+  top: 160px !important;
   left: 30px !important;
   width: 1476px !important;
 
@@ -1183,6 +1183,17 @@ li img {
 
   }
   .ound{
+    background-color: transparent !important;
+    /* background-color: red; */
+    /* z-index: 1; */
+    position: relative;
+    top: -90px !important;
+    left: 30px !important;
+    width: 1476px !important;
+  
+    margin: 0 !important;
+  }
+  .ound{
     background-color: rgb(0, 0, 0);
     max-height: 3900px !important;
     max-width: 352px;
@@ -1192,8 +1203,10 @@ li img {
     /* padding-top: 100px;
     padding-left: 5px;
     padding-right: -3000px; */
+    
 
   }
+ 
   .mains {
     background-color: rgb(0, 255, 81);
     width: 370px;
