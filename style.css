@@ -1432,6 +1432,8 @@ li img {
     background-color: transparent;
     font-size: 48px !important;
     letter-spacing: 0.3px;
+    position: relative;
+    top: 0px;
   }
 
   .parrafo {
