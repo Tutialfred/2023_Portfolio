@@ -271,10 +271,11 @@
 .animal-links a.calendly {
   transition: 0.7s all;
   /* transform: translateY(-10px); */
-  background-color: lightblue;
+  background-color: #65c9de;
   font-weight: 100;
   border: 1px solid black;
 }
+
 
 /* ? GIT HUB */
 .animal-links a.github {
