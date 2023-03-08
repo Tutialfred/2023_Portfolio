@@ -547,9 +547,9 @@
   object-fit: cover;
 }
 .project-list{
-  background-color: transparent;
+  /* background-color: turquoise; */
   position: relative;
-  left: -90px !important;
+  left: -50px !important;
   height: 1400px;
   margin: 0;
   /* top: 170px !important; */
@@ -1271,6 +1271,7 @@ li img {
 
   .project-list {
     background-color: transparent;
+    /* background-color: red !important; */
     /* display: inline-block; */
     position: relative;
     /* position: absolute; */
