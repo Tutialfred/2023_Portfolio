@@ -214,7 +214,7 @@
   font-size: 29px !important;
   position: relative;
   bottom: 10px !important;
-  right: 6.5px !important;
+  right: 7.5px !important;
   font-weight: 100;
 }
 
@@ -223,8 +223,8 @@
   color: rgb(255, 255, 255);
   font-size: 29px !important;
   position: relative;
-  bottom: 10px !important;
-  right: 7px !important;
+  bottom: 9px !important;
+  right: 9px !important;
   font-weight: 100;
 }
 
@@ -928,7 +928,7 @@ li img {
 .solidity {
   width: 34px;
   position: relative;
-  /* top: 7px; */
+  left: 5px;
   /* margin: 0 12px; */
 }
 
