@@ -183,7 +183,7 @@
   color: rgb(255, 255, 255);
   font-size: 29px !important;
   position: relative;
-  bottom: 10px !important;
+  bottom: 9px !important;
   right: 9px !important;
   font-weight: 100;
 }
@@ -224,7 +224,7 @@
   font-size: 29px !important;
   position: relative;
   bottom: 9px !important;
-  right: 9px !important;
+  right: 8px !important;
   font-weight: 100;
 }
 
@@ -352,6 +352,7 @@
   background-color: #ff0000;
   font-weight: 100;
   border: 1px solid black;
+  
 }
 
 .animal-links a.youtube:hover {
